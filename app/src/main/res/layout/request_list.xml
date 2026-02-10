@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="12dp"
+    android:layout_margin="5dp"
+    android:elevation="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView android:id="@+id/txtName" android:textSize="18sp" android:textStyle="bold"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/txtNumber" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/txtCar" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/txtType" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/txtQty" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/txtLocation" android:textColor="#007AFF"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imglocation"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/outline_call_24"
+        android:layout_marginLeft="300dp"/>
+
+    <ImageView
+        android:id="@+id/imgsend"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@android:drawable/ic_menu_send"
+        android:layout_marginLeft="300dp"
+        />
+
+
+</LinearLayout>

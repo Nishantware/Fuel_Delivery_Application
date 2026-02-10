@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fule_delivery_app">
+        <activity
+            android:name=".Managerdashbord"
+            android:exported="false" />
+        <activity
+            android:name=".mechanicdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Userdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Showgaragerequest"
+            android:exported="true"></activity>
+        <activity
+            android:name=".uploadgaragerequest"
+            android:exported="true" />
+        <activity
+            android:name=".Showfulerequest"
+            android:exported="true" />
+        <activity
+            android:name=".fuelrequest"
+            android:exported="true" />
+        <activity
+            android:name=".garagemap"
+            android:exported="true" />
+        <activity
+            android:name=".Showgarage"
+            android:exported="false" />
+        <activity
+            android:name=".Uploadgarage"
+            android:exported="true" />
+        <activity
+            android:name=".ShowPetrolpump"
+            android:exported="true" />
+        <activity
+            android:name=".Petrolpumpmap"
+            android:exported="true" />
+        <activity
+            android:name=".Uploadpetrolpump"
+            android:exported="true" />
+        <activity
+            android:name=".deliveryforgot"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".mechanicforgot"
+            android:exported="false" />
+        <activity
+            android:name=".option"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Userforgot"
+            android:exported="false" />
+        <activity
+            android:name=".mechaniclogin"
+            android:exported="false" />
+        <activity
+            android:name=".mechanicregister"
+            android:exported="false" />
+        <activity
+            android:name=".Deliverylogin"
+            android:exported="false" />
+        <activity
+            android:name=".Deliveryregister"
+            android:exported="false" />
+        <activity
+            android:name=".Managerregister"
+            android:exported="false" />
+        <activity
+            android:name=".Userlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Userregister"
+            android:exported="false" />
+    </application>
+
+</manifest>

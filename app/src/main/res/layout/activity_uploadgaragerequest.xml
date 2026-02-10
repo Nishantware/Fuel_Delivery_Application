@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    tools:context=".uploadgaragerequest">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Garage"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/edtName"
+            android:hint="Enter Name"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtNumber"
+            android:hint="Enter Mobile Number"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtCarNumber"
+            android:hint="Enter Car Number"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtType"
+            android:hint="Description"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:id="@+id/txtLocation"
+            android:text="Location: Not Captured"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLocation"
+            android:background="@drawable/button_border"
+            android:text="Get Current Location"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSave"
+            android:background="@drawable/button_border"
+            android:text="Save Data"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
