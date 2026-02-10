@@ -96,7 +96,7 @@ Enhanced UI/UX and performance optimization
 
 You can download and test the Android application using the APK file below:
 
-👉 **[Download APK](apk/app-debug.apk)**
+👉 **[Download APK]([apk/app-debug.apk](https://github.com/Nishantware/Fuel_Delivery_Application/blob/main/app/src/main/java/com/example/fule_delivery_app/app-debug.apk))**
 
 > Note: Enable **Install from Unknown Sources** on your Android device before installing.
 
