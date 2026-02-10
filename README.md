@@ -91,3 +91,12 @@ Push notifications for order updates
 Admin web dashboard for analytics
 
 Enhanced UI/UX and performance optimization
+
+## 📱 Download APK
+
+You can download and test the Android application using the APK file below:
+
+👉 **[Download APK](apk/app-debug.apk)**
+
+> Note: Enable **Install from Unknown Sources** on your Android device before installing.
+
