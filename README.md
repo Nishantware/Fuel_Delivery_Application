@@ -58,6 +58,17 @@ The application follows a **role-based system** supporting **Users, Delivery Age
 
 ---
 
+## 📱 Download APK
+
+You can download and test the Android application using the APK file below:
+1. Go to the repository
+2. search app-debug.apk
+3. dowland the app 
+
+> Note: Enable **Install from Unknown Sources** on your Android device before installing.
+
+---
+
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
@@ -91,13 +102,4 @@ Push notifications for order updates
 Admin web dashboard for analytics
 
 Enhanced UI/UX and performance optimization
-
-## 📱 Download APK
-
-You can download and test the Android application using the APK file below:
-1. Go to the repository
-2. search app-debug.apk
-3. dowland the app 
-
-> Note: Enable **Install from Unknown Sources** on your Android device before installing.
 
